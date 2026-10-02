@@ -3,7 +3,20 @@
   "name": "invoice-check",
   "version": "0.1.0",
   "description": "Re-checks the arithmetic and consistency of supplier proformas, quotations and invoices (PDF, XLSX, CSV, JSON): line amounts, subtotal, discount, VAT, freight, grand total, total in words (EN/RU/UZ), currencies, number formats, validity dates and Incoterms. Also compares two versions of a document.",
-  "author": {"name": "Abdulfayyod Mukhamedov", "url": "https://github.com/abafaboy"},
+  "author": {
+    "name": "Abdulfayyod Mukhamedov",
+    "url": "https://github.com/abafaboy"
+  },
+  "homepage": "https://chatgpt-plugins-oqk9.onrender.com/site/invoice-check",
+  "repository": "https://github.com/abafaboy/chatgpt-plugins",
+  "license": "MIT",
+  "keywords": [
+    "invoice",
+    "proforma",
+    "quotation",
+    "procurement",
+    "arithmetic"
+  ],
   "skills": "./skills/",
   "extensions": {
     "com.openai": {
@@ -11,7 +24,21 @@
         "displayName": "Proforma & Invoice Checker",
         "category": "Productivity",
         "composerIcon": "./assets/icon.png",
-        "logo": "./assets/icon.png"
+        "logo": "./assets/icon.png",
+        "shortDescription": "Re-check proforma arithmetic",
+        "longDescription": "Re-checks the arithmetic and consistency of supplier proformas, quotations and invoices (PDF, XLSX, CSV, JSON): line amounts, subtotal, discount, VAT, freight, grand total, total in words (EN/RU/UZ), currencies, number formats, validity dates and Incoterms. Also compares two versions of a document.",
+        "developerName": "Abdulfayyod Mukhamedov",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://chatgpt-plugins-oqk9.onrender.com/site/invoice-check",
+        "privacyPolicyURL": "https://chatgpt-plugins-oqk9.onrender.com/privacy",
+        "termsOfServiceURL": "https://chatgpt-plugins-oqk9.onrender.com/terms",
+        "defaultPrompt": [
+          "Check the arithmetic of this proforma.",
+          "What changed between these two quotations?",
+          "Which checks do you run?"
+        ]
       }
     }
   }

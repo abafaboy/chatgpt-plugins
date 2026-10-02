@@ -3,7 +3,21 @@
   "name": "uz-text",
   "version": "0.1.0",
   "description": "Converts Uzbek text between Cyrillic, the 1995 Latin alphabet and the new Latin alphabet (Ö Ğ Ş Ç), writes amounts in Uzbek words for invoices, fixes apostrophe variants, and reads the Central Bank of Uzbekistan's official exchange rates.",
-  "author": {"name": "Abdulfayyod Mukhamedov", "url": "https://github.com/abafaboy"},
+  "author": {
+    "name": "Abdulfayyod Mukhamedov",
+    "url": "https://github.com/abafaboy"
+  },
+  "homepage": "https://chatgpt-plugins-oqk9.onrender.com/site/uz-text",
+  "repository": "https://github.com/abafaboy/chatgpt-plugins",
+  "license": "MIT",
+  "keywords": [
+    "uzbek",
+    "transliteration",
+    "cyrillic",
+    "latin",
+    "exchange rates",
+    "invoices"
+  ],
   "skills": "./skills/",
   "extensions": {
     "com.openai": {
@@ -11,7 +25,21 @@
         "displayName": "UzText: Uzbek Scripts & Sums",
         "category": "Productivity",
         "composerIcon": "./assets/icon.png",
-        "logo": "./assets/icon.png"
+        "logo": "./assets/icon.png",
+        "shortDescription": "Uzbek scripts and sums",
+        "longDescription": "Converts Uzbek text between Cyrillic, the 1995 Latin alphabet and the new Latin alphabet (Ö Ğ Ş Ç), writes amounts in Uzbek words for invoices, fixes apostrophe variants, and reads the Central Bank of Uzbekistan's official exchange rates.",
+        "developerName": "Abdulfayyod Mukhamedov",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://chatgpt-plugins-oqk9.onrender.com/site/uz-text",
+        "privacyPolicyURL": "https://chatgpt-plugins-oqk9.onrender.com/privacy",
+        "termsOfServiceURL": "https://chatgpt-plugins-oqk9.onrender.com/terms",
+        "defaultPrompt": [
+          "Write «Ўзбекистон Республикаси» in Latin.",
+          "Write 1 250 000,50 soʻm in words for an invoice.",
+          "What is the official USD rate in Uzbekistan today?"
+        ]
       }
     }
   }

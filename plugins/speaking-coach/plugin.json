@@ -3,7 +3,43 @@
   "name": "speaking-coach",
   "version": "0.1.0",
   "description": "IELTS-style English speaking practice: a three-part mock test with a Part 2 timer, transcript statistics, and feedback on fluency, vocabulary, grammar and pronunciation with an estimated practice band. Not affiliated with IELTS, the British Council, IDP or Cambridge.",
-  "author": {"name": "Abdulfayyod Mukhamedov", "url": "https://github.com/abafaboy"},
+  "author": {
+    "name": "Abdulfayyod Mukhamedov",
+    "url": "https://github.com/abafaboy"
+  },
+  "homepage": "https://chatgpt-plugins-oqk9.onrender.com/site/speaking-coach",
+  "repository": "https://github.com/abafaboy/chatgpt-plugins",
+  "license": "MIT",
+  "keywords": [
+    "ielts",
+    "english",
+    "speaking",
+    "practice",
+    "education"
+  ],
   "skills": "./skills/",
-  "extensions": {"com.openai": {"interface": {"displayName": "Speaking Band Coach", "category": "Education", "composerIcon": "./assets/icon.png", "logo": "./assets/icon.png"}}}
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Speaking Band Coach",
+        "category": "Education",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png",
+        "shortDescription": "Speaking practice and feedback",
+        "longDescription": "IELTS-style English speaking practice: a three-part mock test with a Part 2 timer, transcript statistics, and feedback on fluency, vocabulary, grammar and pronunciation with an estimated practice band. Not affiliated with IELTS, the British Council, IDP or Cambridge.",
+        "developerName": "Abdulfayyod Mukhamedov",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://chatgpt-plugins-oqk9.onrender.com/site/speaking-coach",
+        "privacyPolicyURL": "https://chatgpt-plugins-oqk9.onrender.com/privacy",
+        "termsOfServiceURL": "https://chatgpt-plugins-oqk9.onrender.com/terms",
+        "defaultPrompt": [
+          "Give me a full speaking mock test.",
+          "Give me a Part 2 cue card about a decision.",
+          "Analyse my answer, it took 95 seconds."
+        ]
+      }
+    }
+  }
 }

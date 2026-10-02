@@ -33,15 +33,26 @@ Tested on the live server (`chatgpt-plugins-oqk9.onrender.com`, Render free plan
   `text/html;profile=mcp-app` with a CSP.
 - Live data: the Central Bank feed (`get_uzbek_exchange_rates`) and the demo shop's catalogue
   (`list_shops`, `search_products("termos")`) return real results.
-- In ChatGPT: UzText, Telegram Shops, Invoice Checker and Speaking Band Coach are added as custom
-  MCP plugins. UzText answered a real prompt end to end (script conversion and CBU rates), with
-  both widgets rendering inside ChatGPT.
+- In ChatGPT, all five are added as custom MCP plugins (no auth) and each answered a real prompt
+  with its widget rendering:
+  - UzText: «Ўзбекистон Республикаси» → "Oʻzbekiston Respublikasi", plus live USD/EUR rates.
+  - Telegram Shops: "Find me a thermos" → the model searched "termos" and showed the demo product,
+    labelled as sample data.
+  - Speaking Band Coach: Part 2 cue card about a decision → transcript analysis (95 s) → criterion
+    scores with pronunciation "requires audio".
+  - GPT to Plugin: a bad plugin.json → name, version and promotional-text findings.
+  - Invoice Checker: `01_proforma_en.pdf` attached in ChatGPT → the file was downloaded from
+    ChatGPT's file link and both planted errors were found (line 3: 12,630.00 vs 12,360.00; total
+    off by 900.00).
+- Each call appears in the Render log as a `usage {...}` line.
 
-**Not tested yet:**
-- GPT to Plugin Packager inside ChatGPT (not added yet), and the other three plugins' test prompts.
-- File download from a real ChatGPT file link (invoice checker).
-- The widget height fix (commit 243a842) on the live server: widgets in ChatGPT showed a tall
-  empty area under the content before it.
+**Not tested yet / known limits:**
+- On the free plan the usage log file is lost on every restart or redeploy; the `usage` lines in
+  Render's log stream are the record until a paid instance with a disk is used.
+- Skills: plugins added as "custom MCP server" run without their SKILL.md. The full package
+  (`cd plugins/<slug> && zip -r ../../dist/<slug>.zip .`) uploads through ChatGPT's "Upload
+  plugin archive" and is read correctly (MCP server, skill, developer, category), but ChatGPT
+  offers it as "Open in desktop app", so the skills have not been exercised in a chat yet.
 
 ## Run locally
 
@@ -59,8 +70,9 @@ npx @modelcontextprotocol/inspector   # connect to http://localhost:8000/uz-text
    likely too slow for ChatGPT, so the Blueprint uses a paid plan and a 1 GB disk for the usage log.
 2. Set `PUBLIC_HOST` to the service's hostname (turns on Host/Origin checks) and keep the generated
    `STATS_TOKEN` secret.
-3. `python scripts/set_host.py <hostname>` and commit, so each `plugins/<slug>/mcp.json` points at
-   the live server.
+3. `python scripts/set_host.py <hostname>` and `python scripts/fill_listing.py <hostname>`, then
+   commit, so each `plugins/<slug>/mcp.json` points at the live server and each `plugin.json`
+   carries the website, privacy and terms URLs.
 4. Check `https://<host>/healthz`, `/privacy`, `/terms`, `/site/<slug>`.
 
 ## Connect, test, submit

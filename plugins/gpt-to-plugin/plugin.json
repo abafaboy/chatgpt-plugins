@@ -3,7 +3,20 @@
   "name": "gpt-to-plugin",
   "version": "0.1.0",
   "description": "Turns a custom GPT's name, description, instructions and conversation starters into a portable plugin folder (plugin.json, a skill and a README of the steps still to do by hand), and checks plugin folders against OpenAI's published packaging rules before submission.",
-  "author": {"name": "Abdulfayyod Mukhamedov", "url": "https://github.com/abafaboy"},
+  "author": {
+    "name": "Abdulfayyod Mukhamedov",
+    "url": "https://github.com/abafaboy"
+  },
+  "homepage": "https://chatgpt-plugins-oqk9.onrender.com/site/gpt-to-plugin",
+  "repository": "https://github.com/abafaboy/chatgpt-plugins",
+  "license": "MIT",
+  "keywords": [
+    "custom gpt",
+    "migration",
+    "plugin",
+    "packaging",
+    "validation"
+  ],
   "skills": "./skills/",
   "extensions": {
     "com.openai": {
@@ -11,7 +24,21 @@
         "displayName": "GPT to Plugin Packager",
         "category": "Productivity",
         "composerIcon": "./assets/icon.png",
-        "logo": "./assets/icon.png"
+        "logo": "./assets/icon.png",
+        "shortDescription": "Custom GPT to plugin folder",
+        "longDescription": "Turns a custom GPT's name, description, instructions and conversation starters into a portable plugin folder (plugin.json, a skill and a README of the steps still to do by hand), and checks plugin folders against OpenAI's published packaging rules before submission.",
+        "developerName": "Abdulfayyod Mukhamedov",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://chatgpt-plugins-oqk9.onrender.com/site/gpt-to-plugin",
+        "privacyPolicyURL": "https://chatgpt-plugins-oqk9.onrender.com/privacy",
+        "termsOfServiceURL": "https://chatgpt-plugins-oqk9.onrender.com/terms",
+        "defaultPrompt": [
+          "Turn my custom GPT into a plugin package.",
+          "Check this plugin.json before I submit it.",
+          "Which packaging rules do you check?"
+        ]
       }
     }
   }
