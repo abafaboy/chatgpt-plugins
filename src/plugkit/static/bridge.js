@@ -63,12 +63,21 @@
     post({ jsonrpc: "2.0", method: "ui/notifications/initialized", params: {} });
   }).catch(function () { /* host without the handshake, e.g. older ChatGPT */ });
 
+  // Report the height of the content, not of the document: the document is at
+  // least as tall as the iframe, so measuring it would never let a host that
+  // starts with a tall frame shrink it to fit.
+  var lastHeight = 0;
   function reportSize() {
-    var h = document.documentElement.scrollHeight;
-    var w = document.documentElement.scrollWidth;
+    var h = Math.ceil(document.body.getBoundingClientRect().height);
+    var w = Math.ceil(document.body.getBoundingClientRect().width);
+    if (!h || h === lastHeight) return;
+    lastHeight = h;
     post({ jsonrpc: "2.0", method: "ui/notifications/size-changed", params: { width: w, height: h } });
+    if (window.openai && typeof window.openai.notifyIntrinsicHeight === "function") {
+      try { window.openai.notifyIntrinsicHeight(h); } catch (e) { /* older host */ }
+    }
   }
-  if (window.ResizeObserver) new ResizeObserver(reportSize).observe(document.documentElement);
+  if (window.ResizeObserver) new ResizeObserver(reportSize).observe(document.body);
 
   window.plugkit = {
     onData: function (cb) {
