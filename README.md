@@ -26,12 +26,22 @@ Tested here:
   console errors (`scripts/render_widgets.py`).
 - `pip install .` into a clean environment.
 
+Tested on the live server (`chatgpt-plugins-oqk9.onrender.com`, Render free plan, 2 Oct 2026):
+- Docker image builds and starts on Render; `/healthz`, `/`, `/privacy`, `/terms` and all five
+  `/site/<slug>` pages answer; `/site/nope` is 404 and `/stats` without the token is 403.
+- All 16 tools are listed over HTTPS with `PUBLIC_HOST` set; every widget resource is served as
+  `text/html;profile=mcp-app` with a CSP.
+- Live data: the Central Bank feed (`get_uzbek_exchange_rates`) and the demo shop's catalogue
+  (`list_shops`, `search_products("termos")`) return real results.
+- In ChatGPT: UzText, Telegram Shops, Invoice Checker and Speaking Band Coach are added as custom
+  MCP plugins. UzText answered a real prompt end to end (script conversion and CBU rates), with
+  both widgets rendering inside ChatGPT.
+
 **Not tested yet:**
-- Inside ChatGPT itself. Nothing has been connected to ChatGPT; that needs a public HTTPS URL.
-- The live data sources from a deployed server: cbu.uz and the demo shop's products.json were
-  unreachable from the build sandbox, so those calls ran against saved copies of the real responses.
+- GPT to Plugin Packager inside ChatGPT (not added yet), and the other three plugins' test prompts.
 - File download from a real ChatGPT file link (invoice checker).
-- The Docker image build (no Docker daemon in the build sandbox; the same `pip install .` was tested).
+- The widget height fix (commit 243a842) on the live server: widgets in ChatGPT showed a tall
+  empty area under the content before it.
 
 ## Run locally
 
