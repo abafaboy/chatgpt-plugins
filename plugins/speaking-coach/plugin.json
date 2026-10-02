@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "speaking-coach",
+  "version": "0.1.0",
+  "description": "IELTS-style English speaking practice: a three-part mock test with a Part 2 timer, transcript statistics, and feedback on fluency, vocabulary, grammar and pronunciation with an estimated practice band. Not affiliated with IELTS, the British Council, IDP or Cambridge.",
+  "author": {"name": "Abdulfayyod Mukhamedov", "url": "https://github.com/abafaboy"},
+  "skills": "./skills/",
+  "extensions": {"com.openai": {"interface": {"displayName": "Speaking Band Coach", "category": "Education", "composerIcon": "./assets/icon.png", "logo": "./assets/icon.png"}}}
+}

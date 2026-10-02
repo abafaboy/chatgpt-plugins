@@ -1,0 +1,10 @@
+[
+  {
+    "slug": "demo-shop",
+    "name": "Demo Shop (sample data)",
+    "base_url": "https://abafaboy.github.io/tg-storefront/",
+    "city": "Tashkent",
+    "language": "uz",
+    "demo": true
+  }
+]

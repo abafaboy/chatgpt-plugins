@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chatgpt-plugins"
+version = "0.1.0"
+description = "Five ChatGPT plugins (MCP servers + skills) served from one process, with per-plugin usage counts."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Abdulfayyod Mukhamedov" }]
+dependencies = [
+    "mcp>=2.2,<3",
+    "httpx>=0.27",
+    "uvicorn>=0.30",
+    "starlette>=0.40",
+    "uztext @ git+https://github.com/abafaboy/uztext@main#subdirectory=python",
+    "invoice-lint @ git+https://github.com/abafaboy/invoice-lint@main",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "anyio>=4", "reportlab>=4"]
+
+[project.scripts]
+chatgpt-plugins = "plugkit.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+plugkit = ["static/*"]
+"*" = ["data/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

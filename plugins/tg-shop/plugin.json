@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tg-shop",
+  "version": "0.1.0",
+  "description": "Search the catalogues of small shops that sell through Telegram channels, in Uzbek (Cyrillic or Latin), Russian or English, and open each product on the shop's own website.",
+  "author": {"name": "Abdulfayyod Mukhamedov", "url": "https://github.com/abafaboy"},
+  "skills": "./skills/",
+  "extensions": {"com.openai": {"interface": {"displayName": "Shops from Telegram Channels", "category": "Shopping", "composerIcon": "./assets/icon.png", "logo": "./assets/icon.png"}}}
+}

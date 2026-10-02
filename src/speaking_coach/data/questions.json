@@ -1,0 +1,716 @@
+{
+  "part1": [
+    {
+      "id": "p1-01",
+      "topic": "Mornings",
+      "questions": [
+        "What is the first thing you usually do after you wake up?",
+        "Are you more energetic in the morning or in the evening?",
+        "How are your mornings different now from when you were younger?",
+        "What would make your mornings more pleasant?"
+      ]
+    },
+    {
+      "id": "p1-02",
+      "topic": "Walking",
+      "questions": [
+        "How often do you go for a walk just for pleasure?",
+        "Where in your area do you like to walk?",
+        "Do you prefer walking alone or with other people?",
+        "Do you think people in your city walk more or less than they used to?"
+      ]
+    },
+    {
+      "id": "p1-03",
+      "topic": "Rainy days",
+      "questions": [
+        "How do you usually feel on a rainy day?",
+        "What do you like to do indoors when it is raining?",
+        "Does it rain much in the place where you live?",
+        "Did you enjoy playing outside in the rain as a child?"
+      ]
+    },
+    {
+      "id": "p1-04",
+      "topic": "Handwriting",
+      "questions": [
+        "Do you still write things by hand, or do you mostly type?",
+        "When did you last write a note or a card by hand?",
+        "Is your handwriting easy for other people to read?",
+        "Should schools keep teaching children to write neatly by hand?"
+      ]
+    },
+    {
+      "id": "p1-05",
+      "topic": "Snacks",
+      "questions": [
+        "What do you usually eat between meals?",
+        "Do you prefer sweet snacks or savoury ones?",
+        "Were the snacks you ate as a child different from the ones you eat now?",
+        "Do you ever make snacks yourself rather than buying them?"
+      ]
+    },
+    {
+      "id": "p1-06",
+      "topic": "Finding your way",
+      "questions": [
+        "Are you good at finding your way in a place you have never been to?",
+        "Do you ever use paper maps, or only maps on your phone?",
+        "Can you remember the last time you got lost?",
+        "How do you feel about asking strangers for directions?"
+      ]
+    },
+    {
+      "id": "p1-07",
+      "topic": "Music while working",
+      "questions": [
+        "Do you listen to music while you study or work?",
+        "What kind of music helps you concentrate?",
+        "Is there any music you find distracting?",
+        "Has the music you listen to changed in the last few years?"
+      ]
+    },
+    {
+      "id": "p1-08",
+      "topic": "Taking photos",
+      "questions": [
+        "How often do you take photos on your phone?",
+        "What do you usually take photos of?",
+        "Do you ever print any of your photos?",
+        "Do you like having your own photo taken?"
+      ]
+    },
+    {
+      "id": "p1-09",
+      "topic": "Neighbours",
+      "questions": [
+        "How well do you know the people who live near you?",
+        "Do neighbours in your area help each other?",
+        "What makes someone a good neighbour?",
+        "Would you rather live close to your neighbours or far from them?"
+      ]
+    },
+    {
+      "id": "p1-10",
+      "topic": "Colours",
+      "questions": [
+        "Which colour do you wear most often?",
+        "Is there a colour you would never choose for your bedroom walls?",
+        "Do you think colours can change your mood?",
+        "Did you have a favourite colour when you were a child?"
+      ]
+    },
+    {
+      "id": "p1-11",
+      "topic": "Plants",
+      "questions": [
+        "Do you keep any plants at home?",
+        "Who looks after the plants where you live?",
+        "Would you like to grow your own vegetables one day?",
+        "Are there many trees on the street where you live?"
+      ]
+    },
+    {
+      "id": "p1-12",
+      "topic": "Days off",
+      "questions": [
+        "What did you do on your last day off?",
+        "Do you plan your days off or decide what to do on the day?",
+        "Do you prefer a busy day off or a relaxing one?",
+        "Would you like to have more free days than you do now?"
+      ]
+    },
+    {
+      "id": "p1-13",
+      "topic": "The night sky",
+      "questions": [
+        "Do you ever look up at the stars at night?",
+        "Can you see the stars clearly from where you live?",
+        "Have you ever got up early just to watch the sunrise?",
+        "Would you like to learn more about space?"
+      ]
+    },
+    {
+      "id": "p1-14",
+      "topic": "Bags",
+      "questions": [
+        "What kind of bag do you usually carry?",
+        "Which things are always in your bag?",
+        "Do you choose bags for their looks or for how practical they are?",
+        "Have you ever left a bag somewhere by mistake?"
+      ]
+    },
+    {
+      "id": "p1-15",
+      "topic": "Puzzles and games",
+      "questions": [
+        "Do you enjoy doing puzzles?",
+        "What board games or card games did you play as a child?",
+        "Do you prefer games you play on your own or with other people?",
+        "Do you think puzzles keep the brain healthy?"
+      ]
+    },
+    {
+      "id": "p1-16",
+      "topic": "Being on time",
+      "questions": [
+        "Do you wear a watch?",
+        "Are you usually on time when you meet people?",
+        "How do you feel when someone keeps you waiting?",
+        "Is being on time considered important where you live?"
+      ]
+    },
+    {
+      "id": "p1-17",
+      "topic": "Bicycles",
+      "questions": [
+        "Did you learn to ride a bicycle when you were young?",
+        "Is cycling popular in your town or city?",
+        "Would you cycle to work or school if you could?",
+        "What would make cycling safer where you live?"
+      ]
+    },
+    {
+      "id": "p1-18",
+      "topic": "Cooking at home",
+      "questions": [
+        "How often do you cook for yourself?",
+        "What is the simplest dish you know how to make?",
+        "Who taught you to cook?",
+        "Do you prefer cooking alone or with someone else?"
+      ]
+    },
+    {
+      "id": "p1-19",
+      "topic": "Noise",
+      "questions": [
+        "Is the area where you live quiet or noisy?",
+        "Which everyday noises annoy you the most?",
+        "Do you find it easy to fall asleep when there is noise around you?",
+        "Do you ever go looking for silence on purpose?"
+      ]
+    },
+    {
+      "id": "p1-20",
+      "topic": "Gifts",
+      "questions": [
+        "What kind of presents do you like to receive?",
+        "Do you find it easy to choose presents for other people?",
+        "Would you rather give someone money or a present you chose yourself?",
+        "Can you remember a present you were given as a child?"
+      ]
+    }
+  ],
+  "part2": [
+    {
+      "id": "p2-01",
+      "topic": "A skill you taught yourself",
+      "prompt": "Describe a skill you learned without a teacher.",
+      "bullets": [
+        "what the skill is",
+        "how you learned it",
+        "how long it took you"
+      ],
+      "final": "and explain how you feel about having learned it on your own.",
+      "part3": [
+        "Is it easier to learn a practical skill from a person or from online videos?",
+        "Which skills should young people learn before they leave school?",
+        "Why do some people give up when they are learning something new?",
+        "Will people need different skills in twenty years' time?"
+      ]
+    },
+    {
+      "id": "p2-02",
+      "topic": "A useful object at home",
+      "prompt": "Describe an ordinary object in your home that you would find hard to live without.",
+      "bullets": [
+        "what it is",
+        "where you got it",
+        "how often you use it"
+      ],
+      "final": "and explain why it is so useful to you.",
+      "part3": [
+        "Do people today own more things than they really need?",
+        "Why do some people keep old objects for many years?",
+        "How have household objects changed over the last fifty years?",
+        "Is it better to repair broken things or to replace them?"
+      ]
+    },
+    {
+      "id": "p2-03",
+      "topic": "A conversation with a stranger",
+      "prompt": "Describe an interesting conversation you had with someone you did not know.",
+      "bullets": [
+        "where it happened",
+        "who the person was",
+        "what you talked about"
+      ],
+      "final": "and explain why you still remember it.",
+      "part3": [
+        "Why are some people comfortable talking to strangers while others are not?",
+        "Do people talk to strangers less than they did in the past?",
+        "What are good ways to start a conversation with someone new?",
+        "Should children be taught to be cautious with strangers or to be friendly to them?"
+      ]
+    },
+    {
+      "id": "p2-04",
+      "topic": "A quiet place for thinking",
+      "prompt": "Describe a quiet place where you like to go to think.",
+      "bullets": [
+        "where it is",
+        "how you found it",
+        "what you usually do there"
+      ],
+      "final": "and explain why it helps you think clearly.",
+      "part3": [
+        "Why do people need some time alone?",
+        "Do cities have enough quiet public spaces?",
+        "Does modern technology make it harder to concentrate?",
+        "How could schools or offices help people focus better?"
+      ]
+    },
+    {
+      "id": "p2-05",
+      "topic": "Changing your mind",
+      "prompt": "Describe a time when you changed your opinion about something.",
+      "bullets": [
+        "what your original opinion was",
+        "what made you change it",
+        "when this happened"
+      ],
+      "final": "and explain how you felt after changing your mind.",
+      "part3": [
+        "Why do some people find it hard to change their opinions?",
+        "Where do young people get most of their opinions from today?",
+        "Is changing your mind a sign of weakness or of strength?",
+        "How can people tell whether the information they read is reliable?"
+      ]
+    },
+    {
+      "id": "p2-06",
+      "topic": "A memorable meal",
+      "prompt": "Describe a meal that you remember well.",
+      "bullets": [
+        "where you ate it",
+        "who you were with",
+        "what you ate"
+      ],
+      "final": "and explain why this meal was memorable.",
+      "part3": [
+        "How have eating habits in your country changed recently?",
+        "Why do families eat together less often than before?",
+        "Should schools teach children how to cook?",
+        "What are the advantages of eating at home rather than in restaurants?"
+      ]
+    },
+    {
+      "id": "p2-07",
+      "topic": "An interesting building",
+      "prompt": "Describe a building in your town or city that you find interesting.",
+      "bullets": [
+        "where it is",
+        "what it looks like",
+        "what it is used for"
+      ],
+      "final": "and explain what makes it interesting to you.",
+      "part3": [
+        "Should old buildings always be protected?",
+        "What makes a building pleasant to live or work in?",
+        "Are modern cities starting to look the same as each other?",
+        "Who should decide what new buildings look like: architects or local people?"
+      ]
+    },
+    {
+      "id": "p2-08",
+      "topic": "A goal you reached",
+      "prompt": "Describe a goal you set for yourself and achieved.",
+      "bullets": [
+        "what the goal was",
+        "why you set it",
+        "what you did to reach it"
+      ],
+      "final": "and explain how you felt when you achieved it.",
+      "part3": [
+        "Is it better to set small goals or big ones?",
+        "Why do people often give up on their goals?",
+        "Should parents set goals for their children?",
+        "How much does luck matter in achieving success?"
+      ]
+    },
+    {
+      "id": "p2-09",
+      "topic": "A long journey",
+      "prompt": "Describe a journey that took much longer than you expected.",
+      "bullets": [
+        "where you were going",
+        "how you travelled",
+        "what caused the delay"
+      ],
+      "final": "and explain how you dealt with the situation.",
+      "part3": [
+        "What can be done to reduce traffic in big cities?",
+        "Do people travel more than they need to nowadays?",
+        "How will transport change in the future?",
+        "Why do some people prefer to drive even when public transport is available?"
+      ]
+    },
+    {
+      "id": "p2-10",
+      "topic": "Something you borrowed",
+      "prompt": "Describe something you borrowed from another person.",
+      "bullets": [
+        "what it was",
+        "who you borrowed it from",
+        "why you needed it"
+      ],
+      "final": "and explain how you felt about borrowing it.",
+      "part3": [
+        "Why do some people dislike lending their things?",
+        "Are public libraries still important now that so much is online?",
+        "What could neighbours share instead of each person buying their own?",
+        "Is sharing more common in villages than in cities?"
+      ]
+    },
+    {
+      "id": "p2-11",
+      "topic": "Useful advice",
+      "prompt": "Describe a piece of advice someone gave you that turned out to be useful.",
+      "bullets": [
+        "who gave it to you",
+        "what the advice was",
+        "when you used it"
+      ],
+      "final": "and explain why it was helpful.",
+      "part3": [
+        "Who do young people usually go to for advice?",
+        "Is advice from older people still relevant in a fast-changing world?",
+        "Why do people sometimes ignore good advice?",
+        "Is it worth paying for professional advice, for example from a career coach?"
+      ]
+    },
+    {
+      "id": "p2-12",
+      "topic": "A new outdoor activity",
+      "prompt": "Describe an outdoor activity you tried for the first time.",
+      "bullets": [
+        "what the activity was",
+        "where you did it",
+        "who you did it with"
+      ],
+      "final": "and explain whether you would do it again.",
+      "part3": [
+        "Do children spend enough time outdoors today?",
+        "What are the benefits of outdoor activities for adults?",
+        "Should dangerous outdoor sports be restricted?",
+        "How can cities encourage people to spend more time outside?"
+      ]
+    },
+    {
+      "id": "p2-13",
+      "topic": "An app you use",
+      "prompt": "Describe a website or app that you use often.",
+      "bullets": [
+        "what it is",
+        "how you found out about it",
+        "what you use it for"
+      ],
+      "final": "and explain how your life would be different without it.",
+      "part3": [
+        "Do people spend too much time on their phones?",
+        "What kinds of apps might become popular in the future?",
+        "Should some apps have age limits?",
+        "How has the internet changed the way people learn?"
+      ]
+    },
+    {
+      "id": "p2-14",
+      "topic": "A group celebration",
+      "prompt": "Describe a time when a group you belonged to celebrated something.",
+      "bullets": [
+        "what was being celebrated",
+        "where it took place",
+        "what people did"
+      ],
+      "final": "and explain why the celebration mattered to the group.",
+      "part3": [
+        "Why is it important for teams to celebrate success?",
+        "Do people celebrate differently now compared with the past?",
+        "Should companies spend money on parties for their staff?",
+        "Are big celebrations better than small ones?"
+      ]
+    },
+    {
+      "id": "p2-15",
+      "topic": "Someone good at their job",
+      "prompt": "Describe someone you know who is very good at their job.",
+      "bullets": [
+        "who this person is",
+        "what their job is",
+        "how you know them"
+      ],
+      "final": "and explain what makes them good at it.",
+      "part3": [
+        "What makes a job satisfying?",
+        "Is it more important to enjoy your job or to earn a high salary?",
+        "Which jobs do you think are undervalued?",
+        "How might artificial intelligence change the jobs people do?"
+      ]
+    },
+    {
+      "id": "p2-16",
+      "topic": "A thought-provoking film or series",
+      "prompt": "Describe a film or TV series that made you see something in a new way.",
+      "bullets": [
+        "what it was called",
+        "what it was about",
+        "when you watched it"
+      ],
+      "final": "and explain what it made you think about.",
+      "part3": [
+        "Why do people enjoy stories set in the future?",
+        "Should films be used in school lessons?",
+        "Do people now prefer watching films at home or at the cinema?",
+        "How do films shape the way people see other countries?"
+      ]
+    },
+    {
+      "id": "p2-17",
+      "topic": "Helping someone",
+      "prompt": "Describe a time when you helped someone you did not know well.",
+      "bullets": [
+        "who the person was",
+        "what problem they had",
+        "what you did"
+      ],
+      "final": "and explain how you felt afterwards.",
+      "part3": [
+        "Why do some people volunteer their free time?",
+        "Are people less helpful in big cities than in small towns?",
+        "Should schools require students to do community work?",
+        "How can technology help people support each other?"
+      ]
+    },
+    {
+      "id": "p2-18",
+      "topic": "A pleasant sound",
+      "prompt": "Describe a sound that you find pleasant.",
+      "bullets": [
+        "what the sound is",
+        "where you usually hear it",
+        "when you first noticed it"
+      ],
+      "final": "and explain why you like it.",
+      "part3": [
+        "How does noise affect people's health and work?",
+        "Should there be stricter rules about noise in cities?",
+        "Why do people listen to music while doing other things?",
+        "Are natural sounds disappearing from modern life?"
+      ]
+    },
+    {
+      "id": "p2-19",
+      "topic": "A difficult decision",
+      "prompt": "Describe a difficult decision you had to make.",
+      "bullets": [
+        "what the decision was",
+        "what choices you had",
+        "who you asked for help"
+      ],
+      "final": "and explain whether you think you made the right choice.",
+      "part3": [
+        "At what age should young people make important decisions on their own?",
+        "Do people have too many choices nowadays?",
+        "Is it better to decide quickly or to take a long time?",
+        "How do people's decisions change as they get older?"
+      ]
+    },
+    {
+      "id": "p2-20",
+      "topic": "A first visit to a city",
+      "prompt": "Describe a town or city you visited for the first time.",
+      "bullets": [
+        "where it was",
+        "why you went there",
+        "what you did there"
+      ],
+      "final": "and explain what surprised you about it.",
+      "part3": [
+        "What attracts tourists to a city?",
+        "Does tourism always benefit local people?",
+        "How can a city keep its own character as it grows?",
+        "Is it better to travel independently or with a tour group?"
+      ]
+    },
+    {
+      "id": "p2-21",
+      "topic": "Something handmade",
+      "prompt": "Describe something you made with your own hands.",
+      "bullets": [
+        "what you made",
+        "how you made it",
+        "how long it took"
+      ],
+      "final": "and explain how you felt when it was finished.",
+      "part3": [
+        "Are handmade things more valuable than factory-made ones?",
+        "Do people today have fewer practical hobbies than in the past?",
+        "Should schools spend more time on practical subjects?",
+        "Can making things with your hands help people relax?"
+      ]
+    },
+    {
+      "id": "p2-22",
+      "topic": "A good rule",
+      "prompt": "Describe a rule at your school, workplace or home that you think is a good one.",
+      "bullets": [
+        "what the rule is",
+        "who made it",
+        "how people follow it"
+      ],
+      "final": "and explain why you think it is a good rule.",
+      "part3": [
+        "Why do some people break rules?",
+        "Should children help to make the rules at their school?",
+        "Are there too many rules in modern life?",
+        "What is the difference between a rule and a habit?"
+      ]
+    },
+    {
+      "id": "p2-23",
+      "topic": "A wild animal",
+      "prompt": "Describe a wild animal that you find interesting.",
+      "bullets": [
+        "what animal it is",
+        "where it lives",
+        "how you learned about it"
+      ],
+      "final": "and explain why it interests you.",
+      "part3": [
+        "Should zoos still exist?",
+        "What can ordinary people do to protect wildlife?",
+        "Why do so many people keep pets?",
+        "How does the growth of cities affect animals?"
+      ]
+    },
+    {
+      "id": "p2-24",
+      "topic": "A very busy day",
+      "prompt": "Describe a day when you had far too much to do.",
+      "bullets": [
+        "when it was",
+        "what you had to do",
+        "how you organised your time"
+      ],
+      "final": "and explain how you felt at the end of the day.",
+      "part3": [
+        "Why do people seem busier than they used to be?",
+        "Is it possible to be productive without working long hours?",
+        "How do people in your country relax after work?",
+        "Should the working week be shorter?"
+      ]
+    },
+    {
+      "id": "p2-25",
+      "topic": "A place to live in the future",
+      "prompt": "Describe a place where you would like to live one day.",
+      "bullets": [
+        "where it is",
+        "what it is like",
+        "how you know about it"
+      ],
+      "final": "and explain why you would like to live there.",
+      "part3": [
+        "Why do many young people move to big cities?",
+        "What makes a neighbourhood a good place to grow up?",
+        "Should governments encourage people to live in the countryside?",
+        "How might homes be different in the future?"
+      ]
+    },
+    {
+      "id": "p2-26",
+      "topic": "A lesson you remember",
+      "prompt": "Describe a lesson from your school days that you still remember.",
+      "bullets": [
+        "what subject it was",
+        "what happened in the lesson",
+        "who taught it"
+      ],
+      "final": "and explain why it has stayed in your memory.",
+      "part3": [
+        "What makes a lesson interesting for students?",
+        "Will online classes ever replace classrooms?",
+        "Should students be allowed to choose all of their subjects?",
+        "Is memorising information still important?"
+      ]
+    },
+    {
+      "id": "p2-27",
+      "topic": "A meaningful photograph",
+      "prompt": "Describe a photograph that means a lot to you.",
+      "bullets": [
+        "what it shows",
+        "who took it",
+        "where you keep it"
+      ],
+      "final": "and explain why it is important to you.",
+      "part3": [
+        "Why do people take so many photos today?",
+        "Can photographs be trusted now that editing them is so easy?",
+        "Should people ask permission before posting photos of others?",
+        "How is photography as a job changing?"
+      ]
+    },
+    {
+      "id": "p2-28",
+      "topic": "Working in a team",
+      "prompt": "Describe a time you worked with others to finish a task.",
+      "bullets": [
+        "what the task was",
+        "who was in the team",
+        "what your role was"
+      ],
+      "final": "and explain whether the team worked well together.",
+      "part3": [
+        "What makes a good team leader?",
+        "Is it better to work alone or in a group?",
+        "How can disagreements within a team be solved?",
+        "Do team sports teach skills that are useful at work?"
+      ]
+    },
+    {
+      "id": "p2-29",
+      "topic": "Something you want to learn",
+      "prompt": "Describe something you would like to learn in the future.",
+      "bullets": [
+        "what it is",
+        "why you want to learn it",
+        "how you plan to learn it"
+      ],
+      "final": "and explain how it could change your life.",
+      "part3": [
+        "Is it ever too late to learn something new?",
+        "Should adults go back to university?",
+        "Which is more useful: learning a language or learning to code?",
+        "How can older people be encouraged to keep learning?"
+      ]
+    },
+    {
+      "id": "p2-30",
+      "topic": "A favourite piece of clothing",
+      "prompt": "Describe a piece of clothing you wear often.",
+      "bullets": [
+        "what it is",
+        "where you got it",
+        "when you wear it"
+      ],
+      "final": "and explain why you like wearing it.",
+      "part3": [
+        "Why do people follow fashion?",
+        "Is it a problem that clothes have become so cheap?",
+        "Should students wear school uniforms?",
+        "Do clothes tell you much about a person's personality?"
+      ]
+    }
+  ]
+}

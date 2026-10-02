@@ -1,0 +1,19 @@
+# Render Blueprint: one web service runs all five plugins.
+# Free instances sleep after 15 minutes idle and take about a minute to wake,
+# which is likely too slow for ChatGPT tool calls, so this uses a paid plan with a
+# disk for the usage log. Check current prices on render.com before deploying.
+services:
+  - type: web
+    name: chatgpt-plugins
+    runtime: docker
+    plan: starter
+    healthCheckPath: /healthz
+    envVars:
+      - key: PUBLIC_HOST
+        sync: false        # e.g. chatgpt-plugins.onrender.com or your own domain
+      - key: STATS_TOKEN
+        generateValue: true
+    disk:
+      name: data
+      mountPath: /data
+      sizeGB: 1

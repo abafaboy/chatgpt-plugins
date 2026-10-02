@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "uz-text",
+  "version": "0.1.0",
+  "description": "Converts Uzbek text between Cyrillic, the 1995 Latin alphabet and the new Latin alphabet (Ö Ğ Ş Ç), writes amounts in Uzbek words for invoices, fixes apostrophe variants, and reads the Central Bank of Uzbekistan's official exchange rates.",
+  "author": {"name": "Abdulfayyod Mukhamedov", "url": "https://github.com/abafaboy"},
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "UzText: Uzbek Scripts & Sums",
+        "category": "Productivity",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

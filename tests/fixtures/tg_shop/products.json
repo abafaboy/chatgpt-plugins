@@ -1,0 +1,321 @@
+{
+  "channel": "tgstorefront_demo",
+  "title": "Demo Shop",
+  "language": "uz",
+  "generated_at": "2026-09-24T14:25:00.585001+00:00",
+  "count": 12,
+  "products": [
+    {
+      "id": 21,
+      "url": "https://t.me/tgstorefront_demo/21",
+      "title": "Charm hamyon",
+      "description": "Tabiiy charm, 8 ta karta uchun joy.\n240 000 soʻm",
+      "price": {
+        "amount": 240000,
+        "currency": "UZS",
+        "display": "240 000 soʻm"
+      },
+      "categories": [
+        "aksessuarlar",
+        "sovgalar"
+      ],
+      "tags": [
+        "aksessuarlar",
+        "sovgalar"
+      ],
+      "images": [
+        "img/21-1.jpg"
+      ],
+      "date": "2026-09-18T19:05:00+00:00",
+      "sold": false,
+      "views": "1.3K",
+      "page": "p/21.html",
+      "order_url": "https://t.me/tgstorefront_demo_seller?text=Assalomu%20alaykum%21%20Buyurtma%20bermoqchiman%3A%20Charm%20hamyon%0Ahttps%3A%2F%2Ft.me%2Ftgstorefront_demo%2F21"
+    },
+    {
+      "id": 20,
+      "url": "https://t.me/tgstorefront_demo/20",
+      "title": "Stol soati «Retro»",
+      "description": "Yogʻoch korpus, ovozsiz mexanizm.\nNarxini shaxsiy xabarda aytamiz 🙂",
+      "price": null,
+      "categories": [
+        "uy"
+      ],
+      "tags": [
+        "uy"
+      ],
+      "images": [
+        "img/20-1.jpg"
+      ],
+      "date": "2026-09-12T11:35:00+00:00",
+      "sold": false,
+      "views": "870",
+      "page": "p/20.html",
+      "order_url": "https://t.me/tgstorefront_demo_seller?text=Assalomu%20alaykum%21%20Buyurtma%20bermoqchiman%3A%20Stol%20soati%20%C2%ABRetro%C2%BB%0Ahttps%3A%2F%2Ft.me%2Ftgstorefront_demo%2F20"
+    },
+    {
+      "id": 18,
+      "url": "https://t.me/tgstorefront_demo/18",
+      "title": "Sport krossovkalari «Yugur»",
+      "description": "Oʻlchamlar: 36–44\nIkki rang: koʻk va pushti.\n\n590 000 soʻm",
+      "price": {
+        "amount": 590000,
+        "currency": "UZS",
+        "display": "590 000 soʻm"
+      },
+      "categories": [
+        "kiyim"
+      ],
+      "tags": [
+        "kiyim"
+      ],
+      "images": [
+        "img/18-1.jpg",
+        "img/18-2.jpg"
+      ],
+      "date": "2026-09-08T15:25:00+00:00",
+      "sold": false,
+      "views": "3.9K",
+      "page": "p/18.html",
+      "order_url": "https://t.me/tgstorefront_demo_seller?text=Assalomu%20alaykum%21%20Buyurtma%20bermoqchiman%3A%20Sport%20krossovkalari%20%C2%ABYugur%C2%BB%0Ahttps%3A%2F%2Ft.me%2Ftgstorefront_demo%2F18"
+    },
+    {
+      "id": 17,
+      "url": "https://t.me/tgstorefront_demo/17",
+      "title": "Termos 0,75 l",
+      "description": "Issiqni 12 soat, sovuqni 24 soat saqlaydi.\nNarxi — 139 000 soʻm",
+      "price": {
+        "amount": 139000,
+        "currency": "UZS",
+        "display": "139 000 soʻm"
+      },
+      "categories": [
+        "uy"
+      ],
+      "tags": [
+        "uy"
+      ],
+      "images": [
+        "img/17-1.jpg"
+      ],
+      "date": "2026-09-02T08:50:00+00:00",
+      "sold": false,
+      "views": "1.1K",
+      "page": "p/17.html",
+      "order_url": "https://t.me/tgstorefront_demo_seller?text=Assalomu%20alaykum%21%20Buyurtma%20bermoqchiman%3A%20Termos%200%2C75%20l%0Ahttps%3A%2F%2Ft.me%2Ftgstorefront_demo%2F17"
+    },
+    {
+      "id": 16,
+      "url": "https://t.me/tgstorefront_demo/16",
+      "title": "Xushboʻy sham «Archa»",
+      "description": "Soya mumi, 40 soat yonadi.\n65 000 сум",
+      "price": {
+        "amount": 65000,
+        "currency": "UZS",
+        "display": "65 000 soʻm"
+      },
+      "categories": [
+        "uy",
+        "sovgalar"
+      ],
+      "tags": [
+        "uy",
+        "sovgalar"
+      ],
+      "images": [
+        "img/16-1.jpg"
+      ],
+      "date": "2026-08-27T17:15:00+00:00",
+      "sold": false,
+      "views": "1.5K",
+      "page": "p/16.html",
+      "order_url": "https://t.me/tgstorefront_demo_seller?text=Assalomu%20alaykum%21%20Buyurtma%20bermoqchiman%3A%20Xushbo%CA%BBy%20sham%20%C2%ABArcha%C2%BB%0Ahttps%3A%2F%2Ft.me%2Ftgstorefront_demo%2F16"
+    },
+    {
+      "id": 14,
+      "url": "https://t.me/tgstorefront_demo/14",
+      "title": "Bolalar ryukzagi «Quvnoq»",
+      "description": "Yengil, suv oʻtkazmaydigan mato.\n210 000 soʻm",
+      "price": {
+        "amount": 210000,
+        "currency": "UZS",
+        "display": "210 000 soʻm"
+      },
+      "categories": [
+        "bolalar"
+      ],
+      "tags": [
+        "bolalar",
+        "sotildi"
+      ],
+      "images": [
+        "img/14-1.jpg"
+      ],
+      "date": "2026-08-15T10:40:00+00:00",
+      "sold": true,
+      "views": "2.2K",
+      "page": "p/14.html",
+      "order_url": "https://t.me/tgstorefront_demo_seller?text=Assalomu%20alaykum%21%20Buyurtma%20bermoqchiman%3A%20Bolalar%20ryukzagi%20%C2%ABQuvnoq%C2%BB%0Ahttps%3A%2F%2Ft.me%2Ftgstorefront_demo%2F14"
+    },
+    {
+      "id": 13,
+      "url": "https://t.me/tgstorefront_demo/13",
+      "title": "Беспроводные наушники Nova X2",
+      "description": "До 24 часов работы с кейсом, Bluetooth 5.3.\nЦена: 45$",
+      "price": {
+        "amount": 45,
+        "currency": "USD",
+        "display": "45 $"
+      },
+      "categories": [
+        "elektronika"
+      ],
+      "tags": [
+        "elektronika"
+      ],
+      "images": [
+        "img/13-1.jpg"
+      ],
+      "date": "2026-08-04T18:30:00+00:00",
+      "sold": false,
+      "views": "5.2K",
+      "page": "p/13.html",
+      "order_url": "https://t.me/tgstorefront_demo_seller?text=Assalomu%20alaykum%21%20Buyurtma%20bermoqchiman%3A%20%D0%91%D0%B5%D1%81%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8%20Nova%20X2%0Ahttps%3A%2F%2Ft.me%2Ftgstorefront_demo%2F13"
+    },
+    {
+      "id": 11,
+      "url": "https://t.me/tgstorefront_demo/11",
+      "title": "Atlas roʻmol",
+      "description": "Ipak, 90×180 sm. Ikki xil rangda: binafsha va yashil.\n180 000 soʻm",
+      "price": {
+        "amount": 180000,
+        "currency": "UZS",
+        "display": "180 000 soʻm"
+      },
+      "categories": [
+        "kiyim",
+        "sovgalar"
+      ],
+      "tags": [
+        "kiyim",
+        "sovgalar"
+      ],
+      "images": [
+        "img/11-1.jpg",
+        "img/11-2.jpg"
+      ],
+      "date": "2026-07-25T12:00:00+00:00",
+      "sold": false,
+      "views": "2.8K",
+      "page": "p/11.html",
+      "order_url": "https://t.me/tgstorefront_demo_seller?text=Assalomu%20alaykum%21%20Buyurtma%20bermoqchiman%3A%20Atlas%20ro%CA%BBmol%0Ahttps%3A%2F%2Ft.me%2Ftgstorefront_demo%2F11"
+    },
+    {
+      "id": 8,
+      "url": "https://t.me/tgstorefront_demo/8",
+      "title": "Chinni choynak toʻplami «Lola»",
+      "description": "Choynak, 6 ta piyola va patnis.\nPaxta naqshli klassik dizayn.\n\nNarxi: 350 000 soʻm",
+      "price": {
+        "amount": 350000,
+        "currency": "UZS",
+        "display": "350 000 soʻm"
+      },
+      "categories": [
+        "idishlar",
+        "sovgalar"
+      ],
+      "tags": [
+        "idishlar",
+        "sovgalar"
+      ],
+      "images": [
+        "img/8-1.jpg",
+        "img/8-2.jpg",
+        "img/8-3.jpg"
+      ],
+      "date": "2026-07-12T09:10:00+00:00",
+      "sold": false,
+      "views": "4.1K",
+      "page": "p/8.html",
+      "order_url": "https://t.me/tgstorefront_demo_seller?text=Assalomu%20alaykum%21%20Buyurtma%20bermoqchiman%3A%20Chinni%20choynak%20to%CA%BBplami%20%C2%ABLola%C2%BB%0Ahttps%3A%2F%2Ft.me%2Ftgstorefront_demo%2F8"
+    },
+    {
+      "id": 5,
+      "url": "https://t.me/tgstorefront_demo/5",
+      "title": "Qoʻlda toʻqilgan gilam «Buxoro»",
+      "description": "Oʻlchami: 2×3 m, sof jun.\nHar bir gilam yagona nusxada.\n\nNarxi: 1,2 mln soʻm\nToshkent boʻylab yetkazib berish bepul 🚚",
+      "price": {
+        "amount": 1200000,
+        "currency": "UZS",
+        "display": "1 200 000 soʻm"
+      },
+      "categories": [
+        "uy",
+        "gilamlar"
+      ],
+      "tags": [
+        "uy",
+        "gilamlar"
+      ],
+      "images": [
+        "img/5-1.jpg",
+        "img/5-2.jpg"
+      ],
+      "date": "2026-06-29T10:00:00+00:00",
+      "sold": false,
+      "views": "3.4K",
+      "page": "p/5.html",
+      "order_url": "https://t.me/tgstorefront_demo_seller?text=Assalomu%20alaykum%21%20Buyurtma%20bermoqchiman%3A%20Qo%CA%BBlda%20to%CA%BBqilgan%20gilam%20%C2%ABBuxoro%C2%BB%0Ahttps%3A%2F%2Ft.me%2Ftgstorefront_demo%2F5"
+    },
+    {
+      "id": 4,
+      "url": "https://t.me/tgstorefront_demo/4",
+      "title": "Paxta sochiq toʻplami (4 dona)",
+      "description": "100% paxta, 50×90 va 70×140 sm.\n💰 120.000 soʻm",
+      "price": {
+        "amount": 120000,
+        "currency": "UZS",
+        "display": "120 000 soʻm"
+      },
+      "categories": [
+        "uy"
+      ],
+      "tags": [
+        "uy"
+      ],
+      "images": [
+        "img/4-1.jpg"
+      ],
+      "date": "2026-06-18T14:20:00+00:00",
+      "sold": false,
+      "views": "1.7K",
+      "page": "p/4.html",
+      "order_url": "https://t.me/tgstorefront_demo_seller?text=Assalomu%20alaykum%21%20Buyurtma%20bermoqchiman%3A%20Paxta%20sochiq%20to%CA%BBplami%20%284%20dona%29%0Ahttps%3A%2F%2Ft.me%2Ftgstorefront_demo%2F4"
+    },
+    {
+      "id": 3,
+      "url": "https://t.me/tgstorefront_demo/3",
+      "title": "Keramik krujka «Tong»",
+      "description": "Hajmi: 350 ml\nQoʻlda boʻyalgan, idish yuvish mashinasida yuvish mumkin.\n\nNarxi: 49 000 soʻm",
+      "price": {
+        "amount": 49000,
+        "currency": "UZS",
+        "display": "49 000 soʻm"
+      },
+      "categories": [
+        "idishlar"
+      ],
+      "tags": [
+        "idishlar"
+      ],
+      "images": [
+        "img/3-1.jpg"
+      ],
+      "date": "2026-06-10T11:05:00+00:00",
+      "sold": false,
+      "views": "2.3K",
+      "page": "p/3.html",
+      "order_url": "https://t.me/tgstorefront_demo_seller?text=Assalomu%20alaykum%21%20Buyurtma%20bermoqchiman%3A%20Keramik%20krujka%20%C2%ABTong%C2%BB%0Ahttps%3A%2F%2Ft.me%2Ftgstorefront_demo%2F3"
+    }
+  ]
+}

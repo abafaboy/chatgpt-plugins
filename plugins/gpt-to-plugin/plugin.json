@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gpt-to-plugin",
+  "version": "0.1.0",
+  "description": "Turns a custom GPT's name, description, instructions and conversation starters into a portable plugin folder (plugin.json, a skill and a README of the steps still to do by hand), and checks plugin folders against OpenAI's published packaging rules before submission.",
+  "author": {"name": "Abdulfayyod Mukhamedov", "url": "https://github.com/abafaboy"},
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "GPT to Plugin Packager",
+        "category": "Productivity",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
