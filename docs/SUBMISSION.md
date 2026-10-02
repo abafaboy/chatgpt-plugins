@@ -5,15 +5,15 @@ with an MCP server, for: a website URL, a support URL, a privacy policy URL, a t
 an icon, a display name (≤30 characters), a short description (≤30 characters), a long description
 (≤4000 characters), **five positive test cases**, **three negative test cases**, and a video
 walkthrough. Identity verification (individual or business) must be done first in the OpenAI
-Platform dashboard. The values below are ready to paste. Replace `HOST` with the deployed hostname.
+Platform dashboard. The values below are ready to paste. Replace `chatgpt-plugins-oqk9.onrender.com` with the deployed hostname.
 
 Common to all five:
 
 | Field | Value |
 |---|---|
 | Support URL | https://github.com/abafaboy/chatgpt-plugins/issues |
-| Privacy policy URL | https://HOST/privacy |
-| Terms of service URL | https://HOST/terms |
+| Privacy policy URL | https://chatgpt-plugins-oqk9.onrender.com/privacy |
+| Terms of service URL | https://chatgpt-plugins-oqk9.onrender.com/terms |
 | Icon | `plugins/<slug>/assets/icon.png` (512×512) |
 | Login needed | No (no demo account required) |
 
@@ -21,7 +21,7 @@ Common to all five:
 
 ## 1. UzText: Uzbek Scripts & Sums (`uz-text`)
 
-- MCP URL: `https://HOST/uz-text/mcp` · Website: `https://HOST/site/uz-text`
+- MCP URL: `https://chatgpt-plugins-oqk9.onrender.com/uz-text/mcp` · Website: `https://chatgpt-plugins-oqk9.onrender.com/site/uz-text`
 - Short description: `Uzbek scripts and sums` (22)
 
 Positive tests
@@ -38,7 +38,7 @@ Negative tests
 
 ## 2. Shops from Telegram Channels (`tg-shop`)
 
-- MCP URL: `https://HOST/tg-shop/mcp` · Website: `https://HOST/site/tg-shop`
+- MCP URL: `https://chatgpt-plugins-oqk9.onrender.com/tg-shop/mcp` · Website: `https://chatgpt-plugins-oqk9.onrender.com/site/tg-shop`
 - Short description: `Telegram shop catalogues` (24)
 
 Positive tests (demo shop is labelled sample data)
@@ -55,7 +55,7 @@ Negative tests
 
 ## 3. Proforma & Invoice Checker (`invoice-check`)
 
-- MCP URL: `https://HOST/invoice-check/mcp` · Website: `https://HOST/site/invoice-check`
+- MCP URL: `https://chatgpt-plugins-oqk9.onrender.com/invoice-check/mcp` · Website: `https://chatgpt-plugins-oqk9.onrender.com/site/invoice-check`
 - Short description: `Re-check proforma arithmetic` (28)
 - Test files: `tests/fixtures/invoice_check/` (invented documents with planted errors).
 
@@ -73,7 +73,7 @@ Negative tests
 
 ## 4. Speaking Band Coach (`speaking-coach`)
 
-- MCP URL: `https://HOST/speaking-coach/mcp` · Website: `https://HOST/site/speaking-coach`
+- MCP URL: `https://chatgpt-plugins-oqk9.onrender.com/speaking-coach/mcp` · Website: `https://chatgpt-plugins-oqk9.onrender.com/site/speaking-coach`
 - Short description: `Speaking practice and feedback` (30)
 
 Positive tests
@@ -90,7 +90,7 @@ Negative tests
 
 ## 5. GPT to Plugin Packager (`gpt-to-plugin`)
 
-- MCP URL: `https://HOST/gpt-to-plugin/mcp` · Website: `https://HOST/site/gpt-to-plugin`
+- MCP URL: `https://chatgpt-plugins-oqk9.onrender.com/gpt-to-plugin/mcp` · Website: `https://chatgpt-plugins-oqk9.onrender.com/site/gpt-to-plugin`
 - Short description: `Custom GPT to plugin folder` (27)
 
 Positive tests

@@ -1,1 +1,1 @@
-{"$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json", "mcpServers": {"speaking-coach": {"type": "streamable-http", "url": "https://HOST/speaking-coach/mcp"}}}
+{"$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json", "mcpServers": {"speaking-coach": {"type": "streamable-http", "url": "https://chatgpt-plugins-oqk9.onrender.com/speaking-coach/mcp"}}}

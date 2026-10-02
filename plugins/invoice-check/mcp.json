@@ -1,9 +1,1 @@
-{
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
-  "mcpServers": {
-    "invoice-check": {
-      "type": "streamable-http",
-      "url": "https://HOST/invoice-check/mcp"
-    }
-  }
-}
+{"$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json", "mcpServers": {"invoice-check": {"type": "streamable-http", "url": "https://chatgpt-plugins-oqk9.onrender.com/invoice-check/mcp"}}}
